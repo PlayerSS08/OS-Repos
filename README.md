@@ -9,7 +9,6 @@ One folder per CA; **each folder is a self-contained project** that can be run o
 | [`CA3_Design_and_Debugging`](CA3_Design_and_Debugging/) | CA-3 | complete: code, results, report |
 | [`CA4_Research_Mini_Project`](CA4_Research_Mini_Project/) | CA-4 | your research report (PDF) |
 | [`CA5_Linux_Systems_Engineering`](CA5_Linux_Systems_Engineering/) | CA-5 | complete: code, results, report (Linux needed to re-run) |
-| [`CA6_Rust_Micro_OS`](CA6_Rust_Micro_OS/) | CA-6 | report only; Aeon source must be added |
 
 CA-2, CA-3 and CA-5 each contain their own copy of the small shared simulator (`src/`), so any one of them can be cloned and run alone.
 Python 3.10+ is enough (`pip install -r requirements.txt`); building the .docx/.pdf additionally needs pandoc and LibreOffice.
